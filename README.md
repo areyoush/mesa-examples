@@ -28,9 +28,7 @@ from mesa_models.boltzmann_wealth_model.model import BoltzmannWealthModel
 ```
 You can see the available models at [setup.cfg](https://github.com/mesa/mesa-examples/blob/main/setup.cfg).
 
----
-
-### License Notice
+## License Notice
 
 All examples in this repository are distributed under the same license as the repository, unless explicitly stated otherwise.
 
