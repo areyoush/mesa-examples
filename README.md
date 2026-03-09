@@ -28,111 +28,40 @@ from mesa_models.boltzmann_wealth_model.model import BoltzmannWealthModel
 ```
 You can see the available models at [setup.cfg](https://github.com/mesa/mesa-examples/blob/main/setup.cfg).
 
+
+
 Table of Contents
 =================
 
-* [Grid Space Examples](#grid-space-examples)
-* [Continuous Space Examples](#continuous-space-examples)
-* [Network Examples](#network-examples)
-* [Visualization Examples](#visualization-examples)
-* [GIS Examples](#gis-examples)
-* [Other Examples](#other-examples)
+Examples in this repository are organized into catalogs by **domain**, **spatial structure**, and **implementation complexity**, providing multiple ways to explore the example models.
 
-## Grid Space Examples
+---
 
-### [Bank Reserves Model](https://github.com/mesa/mesa-examples/blob/main/examples/bank_reserves)
+## Domains
+Examples categorized by the **application domain or research area** the model represents.
 
-A highly abstracted, simplified model of an economy, with only one type of agent and a single bank representing all banks in an economy.
+- [Biology](domains/biology.md)
+- [Computer Science](domains/computer_science.md)
+- [Ecology](domains/ecology.md)
+- [Economics](domains/economics.md)
+- [Epidemiology](domains/epidemiology.md)
+- [Geography](domains/geography.md)
+- [Social Science](domains/social_science.md)
 
-### [Color Patches Model](https://github.com/mesa/mesa-examples/tree/main/examples/color_patches)
+---
 
-A cellular automaton model where agents opinions are influenced by that of their neighbors. As the model evolves, color patches representing the prevailing opinion in a given area expand, contract, and sometimes disappear.
+## Spaces
+Examples categorized by the **type of spatial structure used in the model**.
 
-### [Conway's Game Of "Life" Model (Fast)](https://github.com/mesa/mesa-examples/tree/main/examples/conways_game_of_life_fast)
+- [Grid-based Models](spaces/grid.md)
+- [Network-based Models](spaces/network.md)
+- [Continuous Models](spaces/continuous.md)
+- [GIS-based Models](spaces/gis.md)
 
-A very fast performance optimized version of Conway's Game of Life using the Mesa [`PropertyLayer`](https://github.com/mesa/mesa/pull/1898). About 100x as fast as the regular versions, but limited visualisation (for [now](https://github.com/mesa/mesa/issues/2138)).
+---
 
-### [Conway's Game Of "Life" Model on a Hexagonal Grid](https://github.com/mesa/mesa-examples/tree/main/examples/hex_snowflake)
+## Complexity
+Examples categorized by the **implementation complexity of the model**.
 
-Conway's game of life on a hexagonal grid.
-
-### [Hexagonal Ant Foraging Model](https://github.com/mesa/mesa-examples/tree/main/examples/hex_ant)
-
-A simulation of ant foraging behavior on a hexagonal grid using pheromone trails and property layers.
-
-### [Forest Fire Model](https://github.com/mesa/mesa-examples/tree/main/examples/forest_fire)
-
-Simple cellular automata of a fire spreading through a forest of cells on a grid, based on the NetLogo [Fire](http://ccl.northwestern.edu/netlogo/models/Fire) model.
-
-### [Hotelling's Law Model](https://github.com/mesa/mesa-examples/tree/main/examples/hotelling_law)
-
-This project is an agent-based model implemented using the Mesa framework in Python. It simulates market dynamics based on Hotelling's Law, exploring the behavior of stores in a competitive market environment. Stores adjust their prices and locations if it's increases market share to maximize revenue, providing insights into the effects of competition and customer behavior on market outcomes.
-
-### [Emperor's Dilemma](https://github.com/mesa/mesa-examples/tree/main/examples/emperor_dilemma)
-
-This project simulates how unpopular norms can dominate a society even when the vast majority of individuals privately reject them. It demonstrates the "illusion of consensus" where agents, driven by a fear of appearing disloyal, not only comply with a rule they hate but also aggressively enforce it on their neighbors. This phenomenon creates a "trap" of False Enforcement, where the loudest defenders of a norm are often its secret opponents.
-### [Humanitarian Aid Distribution Model](https://github.com/mesa/mesa-examples/tree/main/examples/humanitarian_aid_distribution)
-
-This model simulates a humanitarian aid distribution scenario using a needs-based behavioral architecture. Beneficiaries have dynamic needs (water, food) and trucks distribute aid using a hybrid triage system.
-### [Rumor Mill Model](https://github.com/mesa/mesa-examples/tree/main/examples/rumor_mill)
-
-A simple agent-based simulation showing how rumors spread through a population based on the spread chance and initial knowing percentage, implemented with the Mesa framework and adapted from NetLogo [Rumor mill](https://www.netlogoweb.org/launch#https://www.netlogoweb.org/assets/modelslib/Sample%20Models/Social%20Science/Rumor%20Mill.nlogox).
-
-
-## Continuous Space Examples
-_No user examples available yet._
-
-
-## Network Examples
-
-### [Boltzmann Wealth Model with Network](https://github.com/mesa/mesa-examples/tree/main/examples/boltzmann_wealth_model_network)
-
-This is the same [Boltzmann Wealth](https://github.com/mesa/mesa-examples/tree/main/examples/boltzmann_wealth_model) Model, but with a network grid implementation.
-
-### [Ant System for Traveling Salesman Problem](https://github.com/mesa/mesa-examples/tree/main/examples/aco_tsp)
-
-This is based on Dorigo's Ant System "Swarm Intelligence" algorithm for generating solutions for the Traveling Salesman Problem.
-
-### [Dining Philosophers Model](https://github.com/mesa/mesa-examples/tree/main/examples/dining_philosophers)
-
-A classic synchronization problem demonstrating resource contention, deadlock, and starvation on a network graph.
-
-
-
-## Visualization Examples
-
-### [Charts Example](https://github.com/mesa/mesa-examples/tree/main/examples/charts)
-
-A modified version of the [Bank Reserves](https://github.com/mesa/mesa-examples/tree/main/examples/bank_reserves) example made to provide examples of Mesa's charting tools.
-
-### [Shape Example](https://github.com/mesa/mesa-examples/tree/main/examples/shape_example)
-
-Example of grid display and direction showing agents in the form of arrow-head shape.
-
-## GIS Examples
-
-### Vector Data
-
-- [GeoSchelling Model (Polygons)](https://github.com/mesa/mesa-examples/tree/main/gis/geo_schelling)
-- [GeoSchelling Model (Points & Polygons)](https://github.com/mesa/mesa-examples/tree/main/gis/geo_schelling_points)
-- [GeoSIR Epidemics Model](https://github.com/mesa/mesa-examples/tree/main/gis/geo_sir)
-- [Agents and Networks Model](https://github.com/mesa/mesa-examples/tree/main/gis/agents_and_networks)
-
-### Raster Data
-
-- [Rainfall Model](https://github.com/mesa/mesa-examples/tree/main/gis/rainfall)
-- [Urban Growth Model](https://github.com/mesa/mesa-examples/tree/main/gis/urban_growth)
-
-### Raster and Vector Data Overlay
-
-- [Population Model](https://github.com/mesa/mesa-examples/tree/main/gis/population)
-
-## Other Examples
-
-### [El Farol Model](https://github.com/mesa/mesa-examples/tree/main/examples/el_farol)
-
-This folder contains an implementation of El Farol restaurant model. Agents (restaurant customers) decide whether to go to the restaurant or not based on their memory and reward from previous trials. Implications from the model have been used to explain how individual decision-making affects overall performance and fluctuation.
-
-### [Schelling Model with Caching and Replay](https://github.com/mesa/mesa-examples/tree/main/examples/caching_and_replay)
-
-This example applies caching on the Mesa [Schelling](https://github.com/mesa/mesa-examples/tree/main/examples/schelling) example. It enables a simulation run to be "cached" or in other words recorded. The recorded simulation run is persisted on the local file system and can be replayed at any later point.
+- [Basic Examples](complexity/basic.md)
+- [Advanced Examples](complexity/advanced.md)
