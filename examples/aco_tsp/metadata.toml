@@ -1,0 +1,44 @@
+[work]
+title = "Ant System for Traveling Salesman Problem"
+
+abstract = """
+An agent-based implementation of the Ant System algorithm for solving 
+the Traveling Salesman Problem (TSP). Cities are represented as nodes 
+in a network grid, and ants traverse the graph probabilistically based 
+on pheromone intensity and heuristic distance. Pheromone reinforcement 
+and evaporation produce emergent optimization behavior, leading to progressively 
+improved solutions over iterations.
+"""
+
+doi = "10.0000/example.aco_tsp.mesa"
+
+
+[work.authorship]
+authors = ["Marco Dorigo"]
+
+
+[work.classification]
+domain = [
+  "computer science",
+  "optimization",
+  "swarm intelligence",
+  "complex systems"
+]
+
+keywords = [
+  "ant colony optimization",
+  "traveling salesman problem",
+  "pheromone dynamics",
+  "emergent behavior",
+  "network grid"
+]
+
+
+[work.structure]
+space = "network"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

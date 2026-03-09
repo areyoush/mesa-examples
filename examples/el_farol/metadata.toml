@@ -1,0 +1,43 @@
+[work]
+title = "El Farol Bar Model"
+
+abstract = """
+An agent-based implementation of the El Farol bar problem, modeling 
+bounded rational decision-making under limited information. Agents 
+decide whether to attend a restaurant based on past attendance and 
+prediction strategies, producing fluctuating collective dynamics and 
+self-organized coordination around capacity constraints.
+"""
+
+doi = "10.0000/example.el_farol.mesa"
+
+
+[work.authorship]
+authors = ["W. Brian Arthur", "David B. Fogel"]
+
+
+[work.classification]
+domain = [
+  "economics",
+  "complex systems",
+  "social science"
+]
+
+keywords = [
+  "bounded rationality",
+  "inductive reasoning",
+  "collective behavior",
+  "attendance dynamics",
+  "coordination",
+  "adaptive agents"
+]
+
+
+[work.structure]
+space = "non-spatial"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

@@ -1,0 +1,45 @@
+[work]
+title = "Virus-Antibody Model"
+
+abstract = """
+An agent-based model of immune response dynamics simulating interactions 
+between virus and antibody agents in continuous space. Antibodies use 
+short-term and long-term memory to recognize viral DNA, share knowledge 
+with nearby agents, and adapt over time. The model explores mutation, 
+duplication, and memory transmission processes, producing divergent 
+outcomes such as viral dominance or immune system victory depending 
+on parameter settings.
+"""
+
+doi = "10.0000/example.virus_antibody.mesa"
+
+
+[work.authorship]
+authors = ["Model Authors (Mesa Implementation)"]
+
+
+[work.classification]
+domain = [
+  "biology",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "immune response",
+  "virus mutation",
+  "adaptive immunity",
+  "memory mechanisms",
+  "emergent dynamics",
+  "continuous space"
+]
+
+
+[work.structure]
+space = "continuous"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

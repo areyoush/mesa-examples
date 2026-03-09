@@ -1,0 +1,43 @@
+[work]
+title = "Conway's Game of Life on a Hexagonal Grid"
+
+abstract = """
+A hexagonal-grid variation of Conway's Game of Life in which dead cells 
+become alive if they have exactly one neighbor, and alive cells persist 
+indefinitely. The model demonstrates cellular automaton dynamics on a 
+hexagonal lattice and explores pattern formation under alternative 
+neighborhood rules.
+"""
+
+doi = "10.0000/example.hex_life.mesa"
+
+
+[work.authorship]
+authors = ["John Conway"]
+
+
+[work.classification]
+domain = [
+  "computer science",
+  "mathematics",
+  "complex systems"
+]
+
+keywords = [
+  "cellular automaton",
+  "game of life",
+  "hexagonal grid",
+  "spatial dynamics",
+  "emergence",
+  "pattern formation"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"

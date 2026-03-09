@@ -1,0 +1,51 @@
+[work]
+title = "Deffuant–Weisbuch Bounded Confidence Model"
+
+abstract = """
+An agent-based implementation of the Deffuant–Weisbuch bounded confidence 
+model of opinion dynamics. Agents hold continuous opinions and interact 
+pairwise only if their opinions differ by less than a confidence threshold. 
+Interactions lead to partial convergence of opinions, producing emergent 
+patterns such as consensus, polarization, or fragmentation depending on 
+model parameters.
+"""
+
+doi = "10.1142/S0219525900000078"
+
+
+[work.authorship]
+authors = [
+  "Guillaume Deffuant",
+  "David Neau",
+  "Frédéric Amblard",
+  "Guy Weisbuch"
+]
+
+contributors = ["Mesa Development Team"]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "opinion dynamics",
+  "bounded confidence",
+  "continuous opinions",
+  "polarization",
+  "consensus",
+  "fragmentation"
+]
+
+
+[work.structure]
+space = "non-spatial"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"

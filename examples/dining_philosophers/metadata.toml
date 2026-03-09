@@ -1,0 +1,43 @@
+[work]
+title = "Dining Philosophers Model"
+
+abstract = """
+An agent-based implementation of the classic Dining Philosophers problem 
+demonstrating resource contention, deadlock, and fairness strategies. 
+Philosophers compete for shared forks under different acquisition rules 
+(naive, atomic, and cooperative), allowing exploration of deadlock 
+prevention, starvation, and coordination dynamics through interactive 
+visualization and performance metrics.
+"""
+
+doi = "10.0000/example.dining_philosophers.mesa"
+
+
+[work.authorship]
+authors = ["Edsger W. Dijkstra"]
+
+
+[work.classification]
+domain = [
+  "computer science",
+  "complex systems"
+]
+
+keywords = [
+  "resource contention",
+  "deadlock",
+  "concurrency",
+  "coordination",
+  "distributed systems",
+  "fairness"
+]
+
+
+[work.structure]
+space = "network"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

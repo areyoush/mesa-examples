@@ -1,0 +1,43 @@
+[work]
+title = "Color Patches"
+
+abstract = """
+A cellular automaton model in which agents occupy fixed positions on a 2D grid 
+and adopt the most common opinion among their neighbors at each time step. 
+Each opinion is represented by a distinct color, and local majority dynamics 
+produce the emergence, consolidation, or disappearance of opinion clusters 
+over time.
+"""
+
+doi = "10.0000/example.color_patches.mesa"
+
+
+[work.authorship]
+authors = ["Mesa Development Team"]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "cellular automaton",
+  "opinion dynamics",
+  "spatial model",
+  "emergence",
+  "majority rule",
+  "grid model"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"

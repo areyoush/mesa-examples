@@ -1,0 +1,39 @@
+[work]
+title = "Forest Fire Model"
+
+abstract = """
+A stylized agent-based model of forest dynamics in which trees grow,
+ignite, and burn according to stochastic local interaction rules,
+exhibiting self-organized criticality.
+"""
+
+doi = "10.0000/example.forestfire.mesa"
+
+
+[work.authorship]
+authors = ["Per Bak", "Kim Christensen"]
+
+
+[work.classification]
+domain = [
+  "ecology",
+  "complex systems",
+  "statistical physics"
+]
+
+keywords = [
+  "forest fire",
+  "self-organized criticality",
+  "cellular automaton",
+  "critical phenomena"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"

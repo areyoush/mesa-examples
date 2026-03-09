@@ -1,0 +1,43 @@
+[work]
+title = "Conway's Game of Life (Fast)"
+
+abstract = """
+An optimized implementation of Conway's Game of Life using Mesa's 
+PropertyLayer abstraction. The model applies 2D convolution to efficiently 
+compute neighbor counts across a toroidal grid, achieving significant 
+performance improvements over traditional agent-based implementations. 
+It demonstrates high-performance cellular automata modeling within Mesa.
+"""
+
+doi = "10.0000/example.gol_fast.mesa"
+
+
+[work.authorship]
+authors = ["John Conway"]
+
+
+[work.classification]
+domain = [
+  "computer science",
+  "mathematics",
+  "complex systems"
+]
+
+keywords = [
+  "game of life",
+  "cellular automaton",
+  "propertylayer",
+  "high performance",
+  "toroidal grid",
+  "convolution"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

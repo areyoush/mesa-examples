@@ -1,0 +1,43 @@
+[work]
+title = "Bank Reserves Model"
+
+abstract = """
+A simplified agent-based model of a monetary economy with a single centralized bank. 
+Agents move randomly on a grid and probabilistically trade, generating deposits, 
+withdrawals, and loans. The model illustrates reserve requirements, credit creation, 
+and the dynamic relationship between deposits, loans, and bank reserves within a 
+highly abstracted financial system.
+"""
+
+doi = "10.0000/example.bank_reserves.mesa"
+
+
+[work.authorship]
+authors = ["Uri Wilensky"]
+
+
+[work.classification]
+domain = [
+  "economics",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "bank reserves",
+  "monetary system",
+  "credit creation",
+  "agent-based economics",
+  "financial simulation",
+  "reserve requirement"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

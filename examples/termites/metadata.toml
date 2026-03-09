@@ -1,0 +1,43 @@
+[work]
+title = "Termite WoodChip Behaviour"
+
+abstract = """
+An agent-based model of decentralized organization inspired by the NetLogo 
+Termites model. Termite agents move randomly on a toroidal grid, picking up 
+and dropping wood chips based on simple local rules. Through repeated local 
+interactions, wood chips self-organize into piles, illustrating emergent 
+collective behavior without centralized control.
+"""
+
+doi = "10.0000/example.termite_woodchip.mesa"
+
+
+[work.authorship]
+authors = ["Uri Wilensky"]
+
+
+[work.classification]
+domain = [
+  "biology",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "stigmergy",
+  "self-organization",
+  "emergent behavior",
+  "decentralized systems",
+  "swarm intelligence",
+  "toroidal grid"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"

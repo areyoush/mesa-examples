@@ -1,0 +1,48 @@
+[work]
+title = "The Emperor's Dilemma Agent-Based Model"
+
+abstract = """
+An agent-based implementation of the Emperor's Dilemma model of 
+self-enforcing social norms. The model demonstrates how unpopular norms 
+can persist through public compliance and aggressive enforcement driven 
+by reputational concerns. It captures dynamics of compliance, enforcement, 
+and false enforcement, illustrating the emergence of an illusion of consensus 
+in social systems.
+"""
+
+doi = "10.1086/427321"
+
+
+[work.authorship]
+authors = [
+  "Damon Centola",
+  "Robb Willer",
+  "Michael Macy"
+]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "social norms",
+  "false consensus",
+  "compliance",
+  "norm enforcement",
+  "reputation",
+  "collective behavior"
+]
+
+
+[work.structure]
+space = "network"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

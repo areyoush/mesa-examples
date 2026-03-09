@@ -1,0 +1,44 @@
+[work]
+title = "Schelling Model with Caching and Replay"
+
+abstract = """
+An extension of the classic Schelling segregation model demonstrating 
+how simulation runs can be cached and replayed. The model wraps the 
+standard Schelling implementation in a CacheableModel interface using 
+the Mesa-Replay library, allowing simulation executions to be recorded, 
+persisted locally, and replayed at a later time. This example focuses 
+on showcasing reproducibility and replay functionality in agent-based simulations.
+"""
+
+doi = "10.0000/example.schelling_cache_replay.mesa"
+
+
+[work.authorship]
+authors = ["Thomas Schelling"]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "computer science",
+  "complex systems"
+]
+
+keywords = [
+  "schelling model",
+  "segregation",
+  "caching",
+  "replay",
+  "reproducibility",
+  "mesa-replay"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

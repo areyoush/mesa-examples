@@ -1,0 +1,43 @@
+[work]
+title = "Rumor Mill Model"
+
+abstract = """
+An agent-based simulation of rumor propagation on a grid-based population. 
+Agents who know a rumor attempt to transmit it to random neighbors with a 
+configurable probability, enabling exploration of stochastic diffusion dynamics. 
+The model extends the classic NetLogo Rumor Mill example by introducing 
+probabilistic transmission and tracking cumulative exposure and adoption metrics.
+"""
+
+doi = "10.0000/example.rumor_mill.mesa"
+
+
+[work.authorship]
+authors = ["Uri Wilensky"]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "rumor spread",
+  "information diffusion",
+  "social contagion",
+  "stochastic transmission",
+  "grid model",
+  "network effects"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"

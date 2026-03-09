@@ -1,0 +1,43 @@
+[work]
+title = "Hexagonal Ant Foraging"
+
+abstract = """
+An agent-based model of ant foraging behavior on a toroidal hexagonal grid. 
+Ants explore the environment in search of food, following and depositing 
+pheromone trails that guide collective movement. The model demonstrates 
+stigmergic coordination and emergent trail formation using HexGrid and 
+PropertyLayer abstractions in Mesa.
+"""
+
+doi = "10.0000/example.hex_ant_foraging.mesa"
+
+
+[work.authorship]
+authors = ["Mesa Development Team"]
+
+
+[work.classification]
+domain = [
+  "biology",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "ant foraging",
+  "stigmergy",
+  "pheromone trails",
+  "swarm behavior",
+  "hexagonal grid",
+  "emergence"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

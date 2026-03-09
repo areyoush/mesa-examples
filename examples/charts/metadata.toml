@@ -1,0 +1,44 @@
+[work]
+title = "Mesa Charts Example"
+
+abstract = """
+A visualization-focused example built on the Bank Reserves model to 
+demonstrate Mesa's charting capabilities. The model showcases line charts 
+for time-series data, pie charts for parameter distributions, and bar 
+charts for both model-level and agent-level variables within an interactive 
+server environment.
+"""
+
+doi = "10.0000/example.mesa_charts.mesa"
+
+
+[work.authorship]
+authors = ["Mesa Development Team"]
+
+
+[work.classification]
+domain = [
+  "economics",
+  "computer science",
+  "complex systems"
+]
+
+keywords = [
+  "data visualization",
+  "charting",
+  "line chart",
+  "pie chart",
+  "bar chart",
+  "mesa server",
+  "agent-based modeling"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"    

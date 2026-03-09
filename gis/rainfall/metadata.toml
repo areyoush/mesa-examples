@@ -1,0 +1,44 @@
+[work]
+title = "Rainfall Model"
+
+abstract = """
+An agent-based geospatial model simulating rainfall and surface water flow 
+over a digital elevation model (DEM) using Mesa and Mesa-Geo. Raindrop 
+agents are generated randomly across a raster landscape and flow downhill 
+according to local elevation and water accumulation, illustrating terrain-
+driven hydrological dynamics and spatial processes.
+"""
+
+doi = "10.0000/example.rainfall.mesa"
+
+
+[work.authorship]
+authors = ["ABM GIS Authors"]
+
+
+[work.classification]
+domain = [
+  "geography",
+  "environmental science",
+  "complex systems"
+]
+
+keywords = [
+  "rainfall simulation",
+  "hydrology",
+  "digital elevation model",
+  "gis",
+  "mesa-geo",
+  "water flow",
+  "spatial modeling"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

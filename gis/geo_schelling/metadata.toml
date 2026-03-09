@@ -1,0 +1,43 @@
+[work]
+title = "GeoSchelling Model (Polygons)"
+
+abstract = """
+A geospatial adaptation of the Schelling segregation model implemented
+using Mesa-Geo. Geographic regions (polygons) act as agents that evaluate
+their neighborhood composition based on adjacent regions. If the ratio of
+similar neighbors falls below a threshold, agents relocate to unoccupied
+regions, producing emergent spatial segregation patterns.
+"""
+
+doi = ""
+
+
+[work.authorship]
+authors = ["Thomas C. Schelling"]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "urban studies",
+  "geography"
+]
+
+keywords = [
+  "schelling model",
+  "segregation dynamics",
+  "mesa-geo",
+  "geospatial modeling",
+  "polygon agents",
+  "spatial segregation"
+]
+
+
+[work.structure]
+space = "geospatial"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

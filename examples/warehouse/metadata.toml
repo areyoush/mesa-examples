@@ -1,0 +1,43 @@
+[work]
+title = "Pseudo-Warehouse Model (Meta-Agent Example)"
+
+abstract = """
+A demonstration model showcasing Mesa's meta-agent capability through a 
+simplified warehouse scenario. Robot agents are composed of sub-agents 
+(sensor, router, and worker components) to illustrate hierarchical and 
+multi-level agent architectures. The model emphasizes meta-agent creation, 
+sub-agent coordination, and emergent alliance formation rather than 
+realistic warehouse logistics.
+"""
+
+doi = "10.0000/example.pseudo_warehouse_meta_agent.mesa"
+
+
+[work.authorship]
+authors = ["Mesa Development Team"]
+
+
+[work.classification]
+domain = [
+  "computer science",
+  "complex systems"
+]
+
+keywords = [
+  "meta-agents",
+  "hierarchical agents",
+  "multi-level systems",
+  "warehouse simulation",
+  "agent composition",
+  "alliance formation"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

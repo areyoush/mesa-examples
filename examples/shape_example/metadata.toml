@@ -1,0 +1,40 @@
+[work]
+title = "Shape Model – Basic Grid with Two Agents"
+
+abstract = """
+A minimal agent-based example demonstrating Mesa's web-based grid 
+visualization capabilities. The model displays two static agents on a 
+rectangular grid, showcasing custom shapes, text overlays, and directional 
+arrowheads without agent movement or dynamic behavior.
+"""
+
+doi = "10.0000/example.shape_model.mesa"
+
+
+[work.authorship]
+authors = ["Mesa Development Team"]
+
+
+[work.classification]
+domain = [
+  "computer science"
+]
+
+keywords = [
+  "visualization",
+  "canvas grid",
+  "agent portrayal",
+  "web interface",
+  "static agents",
+  "mesa server"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"

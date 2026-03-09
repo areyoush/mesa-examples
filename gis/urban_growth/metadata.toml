@@ -1,0 +1,43 @@
+[work]
+title = "Urban Growth Model"
+
+abstract = """
+An agent-based implementation of an urban growth model integrating 
+geospatial data with spatial simulation using Mesa and Mesa-Geo. 
+The model explores land-use dynamics and urban expansion processes, 
+demonstrating the interaction between spatial constraints and development 
+patterns within a GIS-enabled environment.
+"""
+
+doi = "10.0000/example.urban_growth.mesa"
+
+
+[work.authorship]
+authors = ["ABM GIS Authors"]
+
+
+[work.classification]
+domain = [
+  "geography",
+  "urban studies",
+  "complex systems"
+]
+
+keywords = [
+  "urban growth",
+  "land use change",
+  "gis integration",
+  "spatial modeling",
+  "mesa-geo",
+  "urban dynamics"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

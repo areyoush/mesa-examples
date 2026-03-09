@@ -1,0 +1,43 @@
+[work]
+title = "Hotelling's Law Simulation"
+
+abstract = """
+An agent-based implementation of Hotelling's linear city model exploring 
+spatial competition and price differentiation. Store agents adapt their 
+locations and prices to maximize market share and revenue, illustrating 
+the principle of minimum differentiation and competitive market dynamics 
+in a one-dimensional spatial economy.
+"""
+
+doi = "10.0000/example.hotelling_law.mesa"
+
+
+[work.authorship]
+authors = ["Harold Hotelling"]
+
+
+[work.classification]
+domain = [
+  "economics",
+  "complex systems",
+  "computer science"
+]
+
+keywords = [
+  "hotelling model",
+  "spatial competition",
+  "market dynamics",
+  "price competition",
+  "minimum differentiation",
+  "industrial organization"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

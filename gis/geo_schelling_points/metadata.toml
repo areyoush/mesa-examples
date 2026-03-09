@@ -1,0 +1,43 @@
+[work]
+title = "GeoSchelling Model (Points & Polygons)"
+
+abstract = """
+A geospatial implementation of the Schelling segregation model using
+Mesa-Geo. Agents represent individuals residing within geographic regions
+(polygons) and evaluate their satisfaction based on the demographic
+composition of their region. Unhappy agents relocate to other regions,
+demonstrating emergent segregation patterns across geographic boundaries.
+"""
+
+doi = ""
+
+
+[work.authorship]
+authors = ["Thomas C. Schelling"]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "urban studies",
+  "geography"
+]
+
+keywords = [
+  "schelling model",
+  "segregation dynamics",
+  "mesa-geo",
+  "geospatial modeling",
+  "point-in-polygon",
+  "spatial segregation"
+]
+
+
+[work.structure]
+space = "geospatial"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

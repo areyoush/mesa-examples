@@ -1,0 +1,43 @@
+[work]
+title = "GeoSIR Epidemics Model"
+
+abstract = """
+A geospatial agent-based implementation of a simple SIR epidemic model
+demonstrating the capabilities of Mesa-Geo. Agents represent individuals
+moving across a geographic map of Toronto, where infections spread through
+proximity-based interactions. Neighborhood regions act as spatial units
+that highlight infection hotspots during the simulation.
+"""
+
+doi = ""
+
+
+[work.authorship]
+authors = ["ABM Community"]
+
+
+[work.classification]
+domain = [
+  "epidemiology",
+  "public health",
+  "geography"
+]
+
+keywords = [
+  "sir model",
+  "epidemic simulation",
+  "mesa-geo",
+  "geospatial modeling",
+  "disease spread",
+  "agent mobility"
+]
+
+
+[work.structure]
+space = "geospatial"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

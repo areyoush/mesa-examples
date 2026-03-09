@@ -1,0 +1,45 @@
+[work]
+title = "Humanitarian Aid Distribution Model (Needs-Based Architecture)"
+
+abstract = """
+An agent-based model of humanitarian aid distribution driven by a needs-based 
+behavioral architecture. Beneficiary agents transition through urgency states 
+based on dynamic food and water needs, while aid trucks implement a hybrid 
+triage system balancing survival priority and logistical efficiency. The model 
+demonstrates emergent coordination, resource competition, and system-level 
+collapse under constrained humanitarian logistics.
+"""
+
+doi = "10.0000/example.humanitarian_aid.mesa"
+
+
+[work.authorship]
+authors = ["Model Authors (Mesa Implementation)"]
+
+
+[work.classification]
+domain = [
+  "social science",
+  "operations research",
+  "complex systems"
+]
+
+keywords = [
+  "humanitarian logistics",
+  "triage",
+  "resource allocation",
+  "needs-based behavior",
+  "emergent coordination",
+  "disaster response",
+  "agent-based modeling"
+]
+
+
+[work.structure]
+space = "grid"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

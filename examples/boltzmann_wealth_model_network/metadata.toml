@@ -1,0 +1,42 @@
+[work]
+title = "Boltzmann Wealth Model with Network"
+
+abstract = """
+An agent-based model of wealth exchange inspired by statistical mechanics. 
+Agents begin with equal wealth and randomly transfer one unit of money to 
+connected neighbors on a network grid. Over time, local exchanges produce 
+an emergent, highly skewed wealth distribution, illustrating principles from 
+econophysics and statistical equilibrium theory.
+"""
+
+doi = "10.0000/example.boltzmann_wealth_model_network.mesa"
+
+
+[work.authorship]
+authors = ["Mesa Development Team"]
+
+
+[work.classification]
+domain = [
+  "economics",
+  "complex systems",
+  "physics"
+]
+
+keywords = [
+  "wealth distribution",
+  "econophysics",
+  "statistical mechanics",
+  "network model",
+  "inequality"
+]
+
+
+[work.structure]
+space = "network"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

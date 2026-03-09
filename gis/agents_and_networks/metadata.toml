@@ -1,0 +1,44 @@
+[work]
+title = "Agents and Networks Model"
+
+abstract = """
+A geospatial agent-based model demonstrating how agents move through a
+road network using shortest-path routing. Agents are assigned homes and
+workplaces from building locations and commute between them along the road
+network. Movement is constrained to network paths derived from geographic
+data, illustrating the integration of GIS data, network structures, and
+agent mobility using Mesa-Geo.
+"""
+
+doi = "10.0000/example.agents_networks.mesa"
+
+
+[work.authorship]
+authors = ["ABM GIS Community"]
+
+
+[work.classification]
+domain = [
+  "geography",
+  "transportation",
+  "urban systems"
+]
+
+keywords = [
+  "mesa-geo",
+  "network modeling",
+  "agent mobility",
+  "shortest path",
+  "transportation simulation",
+  "geospatial networks"
+]
+
+
+[work.structure]
+space = "network"
+time = "discrete"
+
+
+[manifestation]
+complexity = "advanced"
+mesa = ">=3.0.0"

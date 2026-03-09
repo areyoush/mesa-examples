@@ -1,0 +1,42 @@
+[work]
+title = "Population Model"
+
+abstract = """
+An agent-based model demonstrating the use of Mesa-Geo to simulate
+population agents initialized from raster population data. Agents
+represent people distributed across a geographic landscape and move
+randomly between neighboring cells while respecting geographic
+constraints such as lakes represented by vector layers.
+"""
+
+doi = ""
+
+
+[work.authorship]
+authors = ["ABM GIS Community"]
+
+
+[work.classification]
+domain = [
+  "geography",
+  "gis",
+  "population dynamics"
+]
+
+keywords = [
+  "mesa-geo",
+  "geospatial modeling",
+  "population distribution",
+  "raster data",
+  "agent movement"
+]
+
+
+[work.structure]
+space = "geospatial"
+time = "discrete"
+
+
+[manifestation]
+complexity = "basic"
+mesa = ">=3.0.0"
