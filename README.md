@@ -40,28 +40,28 @@ Examples in this repository are organized into catalogs by **domain**, **spatial
 ## Domains
 Examples categorized by the **application domain or research area** the model represents.
 
-- [Biology](domains/biology.md)
-- [Computer Science](domains/computer_science.md)
-- [Ecology](domains/ecology.md)
-- [Economics](domains/economics.md)
-- [Epidemiology](domains/epidemiology.md)
-- [Geography](domains/geography.md)
-- [Social Science](domains/social_science.md)
+- ### [Biology](domains/biology.md)
+- ### [Computer Science](domains/computer_science.md)
+- ### [Ecology](domains/ecology.md)
+- ### [Economics](domains/economics.md)
+- ### [Epidemiology](domains/epidemiology.md)
+- ### [Geography](domains/geography.md)
+- ### [Social Science](domains/social_science.md)
 
 ---
 
 ## Spaces
 Examples categorized by the **type of spatial structure used in the model**.
 
-- [Grid-based Models](spaces/grid.md)
-- [Network-based Models](spaces/network.md)
-- [Continuous Models](spaces/continuous.md)
-- [GIS-based Models](spaces/gis.md)
+- ### [Grid-based Models](spaces/grid.md)
+- ### [Network-based Models](spaces/network.md)
+- ### [Continuous Models](spaces/continuous.md)
+- ### [GIS-based Models](spaces/gis.md)
 
 ---
 
 ## Complexity
-Examples categorized by the **implementation complexity of the model**.
+Examples categorized by the **implementation complexity of the model**, helping users identify beginner-friendly and more advanced examples.
 
-- [Basic Examples](complexity/basic.md)
-- [Advanced Examples](complexity/advanced.md)
+- ### [Basic Examples](complexity/basic.md)
+- ### [Advanced Examples](complexity/advanced.md)
