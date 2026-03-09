@@ -32,7 +32,6 @@ You can see the available models at [setup.cfg](https://github.com/mesa/mesa-exa
 
 All examples in this repository are distributed under the same license as the repository, unless explicitly stated otherwise.
 
----
 
 Table of Contents
 =================
