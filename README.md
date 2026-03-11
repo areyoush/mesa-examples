@@ -65,7 +65,7 @@ Examples categorized by the **type of spatial structure used in the model**.
 ---
 
 ## Complexity
-Examples categorized by the **implementation complexity of the model**, helping users identify beginner-friendly and more advanced examples.
+Examples categorized by the **implementation complexity of the model**.
 
 - ### [Basic Examples](complexity/basic.md)
 - ### [Advanced Examples](complexity/advanced.md)
